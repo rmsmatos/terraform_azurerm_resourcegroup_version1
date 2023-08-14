@@ -44,6 +44,7 @@ No modules.
 |------|-------------|
 | <a name="output_id"></a> [id](#output_id) | Returns Resource Group ID. |
 | <a name="output_location"></a> [location](#output_location) | Returns Resource Group Location. |
+| <a name="output_managed_by"></a> [managed_by](#output_managed_by) | Returns the ID of the resource or application that manages this Resource Group. |
 | <a name="output_name"></a> [name](#output_name) | Returns Resource Group Name. |
 | <a name="output_tags"></a> [tags](#output_tags) | Returns Resource Group Tags. |
 
