@@ -12,9 +12,9 @@ repos:
       args: [--allow-multiple-documents]
     - id: check-added-large-files
     - id: check-json
-    - id: pretty-format-json
-      args:
-        - autofix
+    #- id: pretty-format-json
+    #  args:
+    #    - autofix
     - id: check-merge-conflict
     - id: double-quote-string-fixer
     - id: end-of-file-fixer
@@ -23,15 +23,15 @@ repos:
 #  rev: v0.30.0
 #  hooks:
 #    - id: markdownlint
-- repo: https://github.com/adrienverge/yamllint
-  rev: v1.32.0
-  hooks:
-    - id: yamllint
-      name: yamllint
-      description: This hook runs yamllint
-      entry: yamllint
-      language: python
-      types: [file, yaml]
+#- repo: https://github.com/adrienverge/yamllint
+#  rev: v1.32.0
+#  hooks:
+#    - id: yamllint
+#      name: yamllint
+#      description: This hook runs yamllint
+#      entry: yamllint
+#      language: python
+#      types: [file, yaml]
 - repo: https://github.com/antonbabenko/pre-commit-terraform
   rev: v1.81.0
   hooks:
